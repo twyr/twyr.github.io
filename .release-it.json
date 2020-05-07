@@ -1,7 +1,7 @@
 {
 	"git": {
-		"commitMessage": "chore(release): @twyr/common ${version}",
-		"releaseName": "@twyr/common ${version}",
+		"commitMessage": "chore(release): twyr.github.io ${version}",
+		"releaseName": "twyr.github.io ${version}",
 		"requireBranch": "master",
 		"requireCleanWorkingDir": false,
 		"requireCommits": true,
