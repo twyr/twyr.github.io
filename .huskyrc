@@ -1,0 +1,6 @@
+{
+	"hooks": {
+		"prepare-commit-msg": "exec < /dev/tty && npx git-cz --hook || true",
+		"commit-msg": "git interpret-trailers --trailer sign --in-place $HUSKY_GIT_PARAMS && commitlint -E HUSKY_GIT_PARAMS"
+	}
+}
