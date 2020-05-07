@@ -1,0 +1,71 @@
+{
+	"name": "tuwr.github.io",
+	"version": "2.0.3-beta.0",
+	"description": "Repository with the content for twyr.github.io",
+	"homepage": "https://twyr.github.io",
+	"license": "MITNFA",
+	"main": "index.md",
+	"readmeFilename": "README.md",
+	"keywords": [
+		"twyr",
+		"common",
+		"jsdoc",
+		"jsdoc-to-markdown",
+		"husky",
+		"commitizen",
+		"commitlint",
+		"dependabot",
+		"release-it"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+ssh://github.com/twyr/twyr.github.io.git"
+	},
+	"bugs": {
+		"url": "https://github.com/twyr/twyr.github.io/issues",
+		"email": "shadyvd@hotmail.com"
+	},
+	"author": {
+		"name": "Vish Desai",
+		"email": "shadyvd@hotmail.com",
+		"url": "https://github.com/shadyvd"
+	},
+	"maintainers": [
+		{
+			"name": "Vish Desai",
+			"email": "shadyvd@hotmail.com",
+			"url": "https://github.com/shadyvd"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Vish Desai",
+			"email": "shadyvd@hotmail.com",
+			"url": "https://github.com/shadyvd"
+		}
+	],
+	"scripts": {
+		"build": "npx grunt",
+		"docs": "npx jsdoc --verbose --configure ./.jsdocrc.json",
+		"release": "npx release-it"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@commitlint/cli": "^8.3.5",
+		"@commitlint/config-conventional": "^8.3.4",
+		"@release-it/conventional-changelog": "^1.1.4",
+		"commitizen": "^4.1.2",
+		"cz-conventional-changelog": "^3.2.0",
+		"docdash": "^1.2.0",
+		"grunt": "^1.1.0",
+		"grunt-contrib-clean": "^2.0.0",
+		"grunt-env": "*",
+		"grunt-exec": "*",
+		"husky": "^4.2.5",
+		"is-promise": "^4.0.0",
+		"jsdoc": "^3.6.4",
+		"lint-staged": "^10.2.2",
+		"load-grunt-tasks": "^5.1.0",
+		"release-it": "^13.5.8"
+	}
+}
