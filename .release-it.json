@@ -1,0 +1,24 @@
+{
+	"git": {
+		"commitMessage": "chore(release): @twyr/common ${version}",
+		"releaseName": "@twyr/common ${version}",
+		"requireBranch": "master",
+		"requireCleanWorkingDir": false,
+		"requireCommits": true,
+		"requireUpstream": true
+	},
+	"github": {
+		"release": true
+	},
+
+	"npm": {
+		"publish": false
+	},
+
+	"plugins": {
+		"@release-it/conventional-changelog": {
+			"preset": "angular",
+			"infile": "CHANGELOG.md"
+		}
+	}
+}
