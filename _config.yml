@@ -1,5 +1,3 @@
-# remote_theme: "mmistakes/jekyll-theme-basically-basic"
-
 remote_theme: Drassil/git-wiki-theme@master
 # (string) Title of your wiki
 title: "the twy'r project"
@@ -29,7 +27,7 @@ git_branch: "master"
 # (string) Url of logo image, it can be full, absolute or relative.
 logo_url: 
 # (string) The UA-XXXXX-Y code from google analytic to enable GA on your wiki
-google_analytics: 
+# google_analytics: 
 # (string) folder where wiki pages are stored, it's needed for tool buttons
 wiki_folder: "wiki"
 # (boolean) if you're using github wiki as submodule then this config
