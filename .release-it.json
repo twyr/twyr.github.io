@@ -1,14 +1,18 @@
 {
 	"git": {
 		"commitMessage": "chore(release): twyr.github.io ${version}",
-		"releaseName": "twyr.github.io ${version}",
+
 		"requireBranch": "master",
-		"requireCleanWorkingDir": false,
+		"requireCleanWorkingDir": true,
 		"requireCommits": true,
-		"requireUpstream": true
+		"requireUpstream": true,
+
+		"tagAnnotation": "twyr.github.io ${version}",
+		"tagName": "twyr.github.io ${version}"
 	},
 	"github": {
-		"release": true
+		"release": true,
+		"releaseName": "twyr.github.io ${version}"
 	},
 
 	"npm": {
