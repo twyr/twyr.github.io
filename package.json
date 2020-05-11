@@ -46,7 +46,7 @@
 	],
 	"scripts": {
 		"release": "npx release-it",
-		"serve": "bundle exec jekyll serve --incremental"
+		"serve": "mkdir -p ./_site && rm -r ./_site && bundle exec jekyll serve --incremental"
 	},
 	"dependencies": {},
 	"devDependencies": {
