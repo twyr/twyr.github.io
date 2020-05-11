@@ -1,11 +1,13 @@
 ---
-layout: git-wiki-default
+layout: git-wiki-bs-lux
 ---
 
-<small>{{ page.date | date: "%-d %B %Y" }}</small>
+<span class="date">{{ page.date | date: "%-d %B %Y" }}</span>
 {% if page.author or site.author %}
 <p class="view">by {{ page.author | default: site.author }}</p>
 {% endif %}
+
+{% include git-wiki/components/toc/toc.html %}
 
 {{content}}
 

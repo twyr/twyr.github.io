@@ -8,6 +8,9 @@ title: twy'r
 # (string) Description of your wiki
 description: the entry point to understanding the twy'r project, its aims, scope, etc. - and to access the developer documentation for the code that constitutes an instantiation of the twy'r philosophy
 
+# (string) Owner / Main Author of the site
+author: Vish Desai
+
 # (boolean) Enable/disable wiki page list in sidebar
 show_wiki_pages: false
 
@@ -47,9 +50,15 @@ wiki_folder: "wiki"
 # must be enabled to allow tool buttons to work properly
 use_github_wiki: false
 
+# (boolean) Enable "New/Edit/Delete/et al" button in tools
+show_tool_buttons: false
+
 # (boolean) Enable "Edit with Prose.io" button in tools, it's a 3rd party
 # service to edit github markdown pages easily
 use_prose_io: false
+
+# (boolean) Enable search field in tools
+show_search: true
 
 # Select search_engine component from:
 # - js: it uses a built in javascript component that uses generated js object
@@ -93,13 +102,13 @@ defaults:
     scope:
       path: "" # an empty string here means all files in the project
     values:
-      layout: "git-wiki-default"
+      layout: "git-wiki-bs-lux"
  -
     scope:
       path: ""
       type: "pages"
     values:
-      layout: "git-wiki-default"
+      layout: "git-wiki-bs-lux"
  -
     scope:
       path: ""

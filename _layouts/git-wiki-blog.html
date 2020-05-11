@@ -1,13 +1,16 @@
 ---
 title: Blog
-layout: git-wiki-default
+layout: git-wiki-bs-lux
 ---
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
     <div class="post-item">
         <p class="author">
-            <span class="date">{{ post.date | date: "%-d %B %Y"}}</span>
+			<span class="date">{{ post.date | date: "%-d %B %Y"}}</span>
+			{% if page.author or site.author %}
+			<span class="view">&nbsp;by {{ post.author | default: site.author }}</span>
+			{% endif %}
         </p>
         <div class="git-wiki-content">
             {{ post.excerpt }}

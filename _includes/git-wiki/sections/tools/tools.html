@@ -3,7 +3,13 @@
     {% include {{ site.inc_before_tools }} %}
     {% endif %}
 
+    {% if site.show_tool_buttons %}
+    {% include git-wiki/components/action_btn/page_actions.html %}
+    {% endif %}
+
+    {% if site.show_search %}
     {% include git-wiki/components/search/index.html %}
+    {% endif %}
 
     {% if site.inc_after_tools %}
     {% include {{ site.inc_after_tools }} %}
