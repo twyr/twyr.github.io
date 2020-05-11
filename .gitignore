@@ -38,3 +38,10 @@ node_modules
 # Test Results
 buildresults
 test-results.xml
+
+# Jekyll ignores
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor
