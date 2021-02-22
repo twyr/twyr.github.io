@@ -57,6 +57,6 @@
 		"cz-conventional-changelog": "^3.2.0",
 		"husky": "^4.2.5",
 		"is-promise": "^4.0.0",
-		"release-it": "^13.6.1"
+		"release-it": "^14.4.1"
 	}
 }
